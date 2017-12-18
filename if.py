@@ -25,6 +25,7 @@ for i in range(10):
         print("input correct")
     else:
         print("input error......")
+print("for")
 
 
 
