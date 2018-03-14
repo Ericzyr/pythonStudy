@@ -13,4 +13,3 @@ with browser.get_iframe('login_frame')as iframe:
     iframe.find_by_id('u').fill('976207292')
     iframe.find_by_id('p').fill('z976207292')
     iframe.find_by_id('login_button').click()
-
