@@ -4,8 +4,6 @@
 import os
 os.system("df -h")
 
-
-
 def addfile(filename):
     path = "/home/pc7/pythonNote/"+filename
 

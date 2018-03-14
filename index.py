@@ -10,5 +10,4 @@ def enter_out():
         funt()
     else:
         print("404")
-
 enter_out()
