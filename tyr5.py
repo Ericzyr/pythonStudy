@@ -3,4 +3,5 @@
 import logging
 
 logging.warning("usr")
+
 logging.critical("abc")
