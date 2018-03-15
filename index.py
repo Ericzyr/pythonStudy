@@ -3,7 +3,6 @@
 
 import common
 def enter_out():
-
     inp = input("请输入url:")
     if hasattr(common, inp) == True:
         funt = getattr(common, inp)

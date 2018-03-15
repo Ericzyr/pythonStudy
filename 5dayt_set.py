@@ -10,7 +10,15 @@
 # print(dict['Age'])
 # print(type(dict))
 
-settv = {12, 13, 34}
-settv.add("pcand")
+#  集合的学习
+
+settv = {12, 13, 34, 12, 6, 5, "tev"}
+settv.add("pcand")  # 增加
+settv.discard(12)  # 移除
+settv.remove(13)  # 移除
+t = settv.pop()  # 随机除一个
+
+print(t)
+
 print(settv)
 print(type(settv))
