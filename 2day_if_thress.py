@@ -6,6 +6,8 @@
 # else:
 #     print("!=")
 
+#三目运算
+
 name1 = "jav"
 
 print("jav") if name1 == "jave" else print("no")

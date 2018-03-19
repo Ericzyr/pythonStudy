@@ -13,7 +13,7 @@ print('|'.join(m1)) #对字符串联合
 print(' ' in names) #对字符有没有空格
 
 msg = "Hello ,{n1}, it's been a long"
-nam=msg.format(n1='jack') #字符串的格式化
+nam=msg.format( n1='jack') #字符串的格式化
 print(nam)
 
 

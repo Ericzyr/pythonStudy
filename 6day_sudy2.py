@@ -2,6 +2,8 @@
 # _*_coding:utf-8_*_
 
 
+#装饰器的用法
+
 def outer(f1):
     def inner(*args,**kwargs):
         print('this is a after')

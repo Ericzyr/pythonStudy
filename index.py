@@ -8,5 +8,5 @@ def enter_out():
         funt = getattr(common, inp)
         funt()
     else:
-        print("404")
+        print('404')
 enter_out()

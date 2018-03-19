@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # _*_coding:utf-8_*_
+
+
+#模块time and datetiom 用法
 import time
 import random
 import datetime
