@@ -14,7 +14,5 @@ def function():
     print('I am boy')
     yield 'boy'
 
-
-
 for item in function():
     print(item)
