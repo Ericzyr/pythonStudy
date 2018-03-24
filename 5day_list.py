@@ -35,21 +35,10 @@ print(sheet[::2]) #步长
 if 9 in sheet: # 判断一个数是否在列表中
     number = sheet.count(9) #求一个数的个数是多
     number_index = sheet.index(68) #求一个数的下标是多少
-    print(number_# 对列表的去重
-
-list = [2,4,2,5,6,5,6,]
-new_list = []
-for item in list:
-    if item not in new_list:
-        new_list.append(item)
-print(new_list)
-
-list.sort() #排序
-list.reverse()#反排序
-
-print(list)index)
-    print(number)
-    print('9 is in sheet', number)
+    print(number_index)
+print(list)
+print(number)
+print('9 is in sheet', number)
 
 
 # for i in range(len(sheet)):
@@ -64,6 +53,19 @@ name1.pop(0) #删除一个数据的索引数据
 name3=name2.copy() #列表的copy
 
 print(name1)
+
+
+
+# 对列表的去重
+list = [2,4,2,5,6,5,6,]
+new_list = []
+for item in list:
+    if item not in new_list:
+        new_list.append(item)
+print(new_list)
+
+list.sort() #排序
+list.reverse()#反排序
 
 
 
