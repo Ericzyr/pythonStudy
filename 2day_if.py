@@ -41,4 +41,4 @@ if word == "a":
 else:
     print("answer is no")
 
-answer = print("answer is ok") if word == "a" else print("answer is no")
+answer =  print("answer is ok") if word == "a" else  print("answer is no")
