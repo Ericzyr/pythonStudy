@@ -22,4 +22,3 @@ def fun(*agrs):
         else:
             print('no')
 fun(r)
-

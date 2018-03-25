@@ -1,13 +1,0 @@
-版本信息：6.0.267D_1025一共发现了2个Bug---------------------------------------------------------------[938CIBN:6.0.267D_1025 STRESS]在媒体中心里播放音频时发生了ANR/home/pc7/TV_Stress/TV_938/938cibn_1025all_tv1/938TV1/LOOP1/testPlayMusic_20171028_232646/logstack.log10-28 22:58:52.989 E/ActivityManager( 1348): ANR in com.tencent.qqmusictv.qing (com.tencent.qqmusictv.qing/com.tencent.qqmusictv.app.activity.PlayerActivity)
-10-28 22:58:52.989 E/ActivityManager( 1348): PID: 29778
-10-28 22:58:52.989 E/ActivityManager( 1348): Reason: Input dispatching timed out (Waiting to send key event because the focused window has not finished processing all of the input events that were previously delivered to it.  Outbound queue length: 0.  Wait queue length: 1.)
-10-28 22:58:52.989 E/ActivityManager( 1348): Load: 10.77 / 13.81 / 12.92
-10-28 22:58:52.989 E/ActivityManager( 1348): CPU usage from 0ms to 8904ms later:
-10-28 22:58:52.989 E/ActivityManager( 1348):   94% 12489/com.stv.launcher: 46% user + 47% kernel / faults: 5282 minor 151 major
----------------------------------------------------------------[938CIBN:6.0.267D_1025 STRESS]在live视频与各个桌面间视频播放交互时发生了FC/home/pc7/TV_Stress/TV_938/938cibn_1025all_tv1/938TV1/LOOP1/testSwitchLiveAndDeskApp_20171027_194318/logstack.log10-27 19:44:47.482 E/AndroidRuntime(15834): FATAL EXCEPTION: main
-10-27 19:44:47.482 E/AndroidRuntime(15834): Process: com.letv.tv, PID: 15834
-10-27 19:44:47.482 E/AndroidRuntime(15834): java.lang.RuntimeException: Failure delivering result ResultInfo{who=null, request=5, result=0, data=null} to activity {com.letv.tv/com.letv.tv.activity.playactivity.VideoTopicControllerActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.letv.tv.model.PlayModel.getStreamCode()' on a null object reference
-10-27 19:44:47.482 E/AndroidRuntime(15834): 	at android.app.ActivityThread.deliverResults(ActivityThread.java:3705)
-10-27 19:44:47.482 E/AndroidRuntime(15834): 	at android.app.ActivityThread.handleSendResult(ActivityThread.java:3748)
-10-27 19:44:47.482 E/AndroidRuntime(15834): 	at android.app.ActivityThread.-wrap16(ActivityThread.java)
----------------------------------------------------------------
