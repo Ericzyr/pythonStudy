@@ -14,3 +14,8 @@ print(" ")
 for i in range(2,6):
     i += 2
     print(i)
+
+
+print(" ")
+a +=1
+print(a)
