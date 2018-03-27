@@ -31,9 +31,6 @@ class person(object):
 
 
 
-
-
-
 p1=person('jack',25,'shandong')   #属于对像 也叫 实例化对象
 
 
