@@ -10,9 +10,11 @@
 # print(dict['Age'])
 # print(type(dict))
 
-#  集合的学习
+#  集合的学习 特点不可以通加下标查找元素值
 
 settv = {12, 13, 34, 12, 6, 5, "tev"}
+
+
 settv.add("pcand")  # 增加
 settv.discard(12)  # 移除
 settv.remove(13)  # 移除
