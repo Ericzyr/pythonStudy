@@ -27,6 +27,16 @@ class provincial(object):
     def bar(self):
         print(self.Name)
 
+
+class anhui(provincial):
+    def __init__(self,name,capital,leader,part):
+        super(anhui,self).__init__(name,capital,leader)
+        self.Part = part
+
+
+    def anhui_tese(self,where):
+        print('{}有名的地方是{}'.format(self.Name,where))
+
 sd = provincial('山东','济南','王刚')
 
 ah = provincial('安徽','合肥','张之洞')
@@ -36,3 +46,8 @@ print(sd.commti)
 
 sd.funt()
 sd.bar
+
+w = anhui('安徽','合肥','张之洞','宿州')
+
+w.anhui_tese("黄山")
+
