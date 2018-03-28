@@ -1,5 +1,8 @@
 #!/usr/bin/env python
-# _*_coding:utf-8_*_
+# _*_coding:utf-8_*
+import sys
+import os
+
 sheet = ["adf", "cd", "adsf", "t", 25, 26]
 
 
@@ -22,3 +25,9 @@ print(tuple(a))
 
 print(a[1][0],type(a))
 
+#path = "F:\\download\\"+date
+path1 = '/home/pc7/pythonStudy/web11.py'
+if os.path.exists(path1):
+    print("true")
+else:
+    print('false')

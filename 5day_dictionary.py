@@ -14,5 +14,13 @@ print(d)
 
 
 
+dict1 = {'Name': 'Runoob', 'Age': 7, 'Class': 'First'}
+
+#字典的访问
+print ('Name:', dict1['Name'])
+print ('Age:', dict1['Age'])
 
 
+print(str(dict1)) #	str(dict) 输出字典，以可打印的字符串表示。
+
+print(type(dict1))

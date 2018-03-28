@@ -3,7 +3,7 @@
 
 # 传参和万能参数 函数
 def functiont(*args, **kwargs):
-    print(args)
+    print(*args)
     print(kwargs)
 
 

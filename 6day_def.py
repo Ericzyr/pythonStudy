@@ -6,7 +6,7 @@ os.system("df -h")
 
 def addfile(filename):
     path = "/home/pc7/pythonNote/"+filename
-
+    # 判断一个文件是不是存在
     if (os.path.exists(path)) is False:
         os.mkdir(path)
 
