@@ -68,6 +68,13 @@ list.sort() #排序
 list.reverse()#反排序
 
 
+#打印出列表函数的所有用法
+print(dir(list))
+'''
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+'''
+
 
 
 

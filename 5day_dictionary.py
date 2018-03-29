@@ -24,3 +24,10 @@ print ('Age:', dict1['Age'])
 print(str(dict1)) #	str(dict) 输出字典，以可打印的字符串表示。
 
 print(type(dict1))
+
+
+#打印出字典的所有用法
+print(dir(dict1))
+'''
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+'''

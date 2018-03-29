@@ -20,7 +20,7 @@ print(t3)
 
 
 t4 = tuple(list)  #列表可以转化为元组
-print(t4)
+print(t1)
 
 
 '''
@@ -34,3 +34,10 @@ tuple(seq) 列表转化为元组
 
 '''
 
+#打印出元组函数的所有用法
+print(dir(t1))
+
+'''
+'count', 'index'
+
+'''

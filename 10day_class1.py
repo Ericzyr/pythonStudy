@@ -19,13 +19,13 @@ class person(object):
         self.Age = age
         self.Add = add
 
-    # 功能（特有属性）
+    # 功能（特有属性）也叫方法
     def go_school(self,city):
         # print("%s go to school is the %s" % (self.Name,city))  #% 格式化字符串
         print("{} go to school is the {}".format(self.Name, city))   #% format 格式化字符串 两种方式
         self.city = city
 
-
+    # 功能（特有属性）也叫方法
     def go_work(self,where):
         print('{} work is the {}'.format(self.Name,where))
 
