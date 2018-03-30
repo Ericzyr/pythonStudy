@@ -19,7 +19,7 @@ def f1(*args,**kwargs):
 
 st = [1,2]
 set = {'name':'jack','age':25}
-f1(*st,set)
+f1(st,set)
 
 
 print('\t')
