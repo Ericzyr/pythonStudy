@@ -13,12 +13,6 @@ class person(object):
         print('{}工作部门是{}'.format(self.Name,department))
 
 
-
-
-
-
-
-
 class MTBF_group(person):
     def __init__(self,name,age,sex,add,phone,duty,doing):
 
