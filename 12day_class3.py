@@ -13,8 +13,8 @@ class provincial(object):
         self.Leader = leader
 
     # 动态方法
-    def sport_meet(self):
-        print(self.Name +'正在开运动会')
+    def sport_meet(self,event):
+        print(self.Name +'正在开运动会{}'.format(event))
 
 
     # 静态方法（加上Python自带的装饰器）
@@ -22,7 +22,7 @@ class provincial(object):
     def funt():
         print('全民运动')
 
-    # 特性
+# 特性
     @property
     def bar(self):
         print(self.Name)
@@ -41,8 +41,11 @@ sd = provincial('山东','济南','王刚')
 
 ah = provincial('安徽','合肥','张之洞')
 
-sd.sport_meet()
+
+sd.sport_meet("蓝球")
 print(sd.commti)
+
+
 
 sd.funt()
 sd.bar
