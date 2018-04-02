@@ -41,7 +41,16 @@ def f1():
     df = os.popen('df -h').read()
     print(df,'\n')
 
-    df_file = re.compile('/dev/sda1(.*)%').findall(df)
-    print(df_file[0])
+    df_file = re.compile('/dev/sda(.*)%').findall(df)
+    print(df_file)
+
+
+    s = df_file[0]
+    q=s.replace(" ","")
+
+    r = re.sub('  ','',df_file[0])
+    z = re.sub(' ','\n',r)
+    l = list()
+    print(q[-2:])
 f1()
 
