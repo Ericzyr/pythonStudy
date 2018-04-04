@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 # -*-coding:utf-8-*-
 
+
+word = 'python    adfafd ,adf'
+print(word.rsplit())    # 字符串去除空格生成列表 rsplit（）
+print(word.rstrip())    # 字符串去除空格 rstrip（）
+
 # str 和 int 内置方法函数用法
 name = "efasf"
 print(dir(name))

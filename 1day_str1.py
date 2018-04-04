@@ -22,3 +22,5 @@ if age.isdigit():   #判断是不是数字（digit）
     age =int(age)
 else:
     print('you input is type reset')
+
+

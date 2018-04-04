@@ -72,11 +72,13 @@ def f1():
     df_file = re.compile('/dev/sda(.*)%').findall(df)
     print(df_file)
 
-    s = df_file[0]
+    s = df_file[0].split()
 
-    q=s.replace(" ","")
+    print('查看电脑存贮量剩余：',s[-1])
 
-
-    print('查看电脑存贮量剩余：',q[-2:])
+    # q=s.replace(" ","")
+    #
+    #
+    # print('查看电脑存贮量剩余：',q[-2:])
 f1()
 
