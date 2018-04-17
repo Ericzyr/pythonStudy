@@ -5,7 +5,7 @@
 
 #方法重写
 
-class Parent:  # 定义父类
+class Parent(object):  # 定义父类
     def myMethod(self):
         print('调用父类方法')
 

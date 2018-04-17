@@ -17,7 +17,7 @@ class Vector(object):
 
     # def __add__(self, other):
     #     return Vector(self.a + other.a, self.b + other.b)
-
+#那么Python会调用对象的__str__方法，并输出那个方法所返回的字符串。
 
 v1 = Vector(2, 10)
 v2 = Vector(5, -2)
