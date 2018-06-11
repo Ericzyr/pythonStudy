@@ -56,4 +56,3 @@ s2 = student('student_april','23', 'L', 'Shell', '1400')
 
 t1.teach_lesson()
 s1.student_leran("python")
-

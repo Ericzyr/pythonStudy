@@ -19,3 +19,7 @@ name = "eric"
 age = 25
 
 print(name, age)
+
+
+name1=input("what are you name:")
+print("my name is ", name1)

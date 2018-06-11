@@ -7,6 +7,6 @@ f.write("aa,")
 print(f.readlines())
 f.close()
 
-
+locals()
 os.system('ifconfig')
-
+os.system('wget http://localhost:8000/home')

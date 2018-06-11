@@ -27,6 +27,7 @@ print(a[1][0],type(a))
 
 #path = "F:\\download\\"+date
 path1 = '/home/pc7/pythonStudy/web11.py'
+
 if os.path.exists(path1):
     print("true")
 else:

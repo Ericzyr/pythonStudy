@@ -18,3 +18,9 @@ print(tm)
 
 print(datetime.date.today())
 print(datetime.datetime.now())
+
+# 2018525_1714.html
+
+
+z=time.strftime("%Y%m%d_%H%M", time.localtime())
+print(z)
