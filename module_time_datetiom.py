@@ -24,3 +24,32 @@ print(datetime.datetime.now())
 
 z=time.strftime("%Y%m%d_%H%M", time.localtime())
 print(z)
+
+
+import time
+
+# dt = "2016-05-05 20:28:54"
+#
+# # 转换成时间数组
+# timeArray = time.strptime(dt, "%Y-%m-%d %H:%M:%S")
+# # 转换成时间戳
+# timestamp = time.mktime(timeArray)
+#
+# print(timestamp)
+
+# ("%.2f" % 2.565)
+# >>> a
+
+# 要求较小的2精度
+#
+#
+# round()内置方法
+
+# >> > round(2.5)
+# 3.0
+# >> > round(-2.5)
+# -3.0
+# >> > round(2.675)
+# 3.0
+# >> > round(2.675 , 2)
+# 2.67
