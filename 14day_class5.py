@@ -1,17 +1,26 @@
 #!/usr/bin/env python3
 # -*-coding:utf-8-*-
-# !/usr/bin/python
-# -*- coding: UTF-8 -*-
+
 
 #方法重写
 
 class Parent(object):  # 定义父类
+    def __init__(self):
+        pass
+
     def myMethod(self):
         print('调用父类方法')
 
 class Child(Parent):  # 定义子类
+    def __init__(self):
+        pass
+
     def myMethod(self):
         print('调用子类方法')
+
+
+p =Parent()
+p.myMethod()
 
 c = Child()  # 子类实例
 c.myMethod()  # 子类调用重写方法
@@ -49,3 +58,13 @@ c.hello()
 # 即， 子类定义父类同名函数之后，父类函数被覆盖
 
 # 重定__init__方法
+
+
+def fun(obj):
+    obj.myMethod()
+
+
+c1=Child()
+fun(c1)
+c2=Parent()
+fun(c2)

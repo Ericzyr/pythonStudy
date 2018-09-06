@@ -7,6 +7,9 @@ print("this is 4 two.py")
 
 one.func()
 
+
+
+
 if __name__ == "__main__":
     print("this is 5 two.py")
 else:
@@ -20,7 +23,5 @@ def calc_round_area(radius):
 
 def main():
     print("round area: ", calc_round_area(2))
-
-
 
 main()

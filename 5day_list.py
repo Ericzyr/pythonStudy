@@ -27,6 +27,8 @@ sheet.insert(5, "asdft")  # 从下标第几个 插入(insert)
 
 sheet.remove("t")   # 移除(remover)数据
 
+sheet.pop() #删除最后一个
+
 del sheet[3:5]  # 删除下标的任意一个数据
 print(sheet)
 
